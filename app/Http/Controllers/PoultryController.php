@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\poultry;
+use App\Models\Poultry;
 use Illuminate\Http\Request;
 
 class PoultryController extends Controller
@@ -34,7 +34,7 @@ class PoultryController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(poultry $poultry)
+    public function show(Poultry $Poultry)
     {
         //
     }
@@ -42,7 +42,7 @@ class PoultryController extends Controller
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(poultry $poultry)
+    public function edit(Poultry $Poultry)
     {
         //
     }
@@ -50,7 +50,7 @@ class PoultryController extends Controller
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, poultry $poultry)
+    public function update(Request $request, Poultry $Poultry)
     {
         //
     }
@@ -58,7 +58,7 @@ class PoultryController extends Controller
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(poultry $poultry)
+    public function destroy(Poultry $Poultry)
     {
         //
     }

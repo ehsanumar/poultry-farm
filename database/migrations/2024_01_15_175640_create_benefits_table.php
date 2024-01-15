@@ -14,7 +14,7 @@ return new class extends Migration
         Schema::create('benefits', function (Blueprint $table) {
             $table->id();
             $table->foreignId('batch_id')->constrained('batches')->onDelete('cascade');
-            $table->string('sell');
+            $table->string('amount');
             $table->timestamps();
         });
     }
